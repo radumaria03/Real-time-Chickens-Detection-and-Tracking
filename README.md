@@ -17,11 +17,13 @@ Chickens detectetion &amp; tracking system that uses YOLOv8 for detection, Byte 
   * *first a bounding box dataset was used, but the segmentation model has better results*
 
 
-**▫ Check Object Detection dataset results (Bounding Box)**
+**Check Object Detection dataset results (Bounding Box)**
+
 https://github.com/user-attachments/assets/c8f771fe-d6a4-4069-b6cd-226fd5c5ea95
 
 
-**▫ Check Instance Segmentation dataset results (without tracking)**
+**Check Instance Segmentation dataset results (without tracking)**
+
 https://github.com/user-attachments/assets/d20761b6-2c81-40c7-a760-bd0e3a426d53
 
 
@@ -34,6 +36,7 @@ https://github.com/user-attachments/assets/d20761b6-2c81-40c7-a760-bd0e3a426d53
 
 **Check the Bounding Box Model without the Tracker**
  * the model outputs multiple bounding boxes, so the outputed video looks "messy"
+
 https://github.com/user-attachments/assets/ffcf6767-5c3a-484d-b8a3-ad8d990a849b
 
 
@@ -45,6 +48,7 @@ https://github.com/user-attachments/assets/ffcf6767-5c3a-484d-b8a3-ad8d990a849b
 
 
 **Check MobileNet Emebddings**
+
 https://github.com/user-attachments/assets/fc7ad379-6d20-4950-b6cc-6bde99678dcd
 
 
