@@ -6,8 +6,8 @@ Chickens detectetion &amp; tracking system that uses YOLOv8 for detection, Byte 
 # **Detection Model**
 
  * **Dataset 🗃**
-  * *the model uses an Instance Segmentation dataset created using Roboflow, for labeling the images*
-  * *the current version of the dataset contains 282 labeled images, which was used to train the model*
+   * *the model uses an Instance Segmentation dataset created using Roboflow, for labeling the images*
+   * *the current version of the dataset contains 282 labeled images, which was used to train the model*
 
 <img width="316" height="210" alt="dataset_seg" src="https://github.com/user-attachments/assets/620e2f0e-5b2c-4e01-bcec-d88ac15d6acf" />
 
