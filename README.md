@@ -42,7 +42,8 @@ https://github.com/user-attachments/assets/ffcf6767-5c3a-484d-b8a3-ad8d990a849b
 
 # **MobileNetv3 Embeddings - Chickens Differentiation**
 
-🔎 We removed the classifer layer from the MobileNetv3 Model, so instead of the class logits we get the feature vector (embbeding) - when we have a "new detection", we use the embedding to check if we already detected the chicken by checking the "appereance similarity"
+🔎 We removed the classifer layer from the MobileNetv3 Model, so instead of the class logits we get the feature vector (embbeding)
+   * when we have a "new detection", we use the embedding to check if we already detected the chicken by checking the "appereance similarity"
    ▫ when we make predictions on a frame, we crop the bbox and send it to the MobileNet model to get the embeddings
    ▫ using this we can better see how many unique detections is the model making
 
