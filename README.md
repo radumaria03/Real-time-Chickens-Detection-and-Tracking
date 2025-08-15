@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/fc7ad379-6d20-4950-b6cc-6bde99678dcd
 * **MobileNet Embeddings improvments** - even with the embeddings the model can still count the same chicken multiple times, for example if the model detects the first half of the chicken and in the next frames the other half of the chicken, when we check the similarity for those detections the model might see it as a different chicken
     * also, if the chickens look alike the model might get confused and assign the embedding to the wrong chicken
 * **Smart Detections** - it's great if we can detect even if the chicken is not fully visible, like if only 10% or 20% of the chicken is visible, but in the next frames it might be completly visible
-    * since as humans we can do the same, if a chicken is not fully visible we can identify that as the same chicken when it becomes visible in the next frames (not necessary always, but it's something we can do)
+    * humans can do this easly when watching a video, if a chicken is not fully visible we can identify that as the same chicken when it becomes visible in the next frames (not necessary always, but it's something we can do)
     * if it can be implemented in a simple way, so that we don't affect performance, we can have better detections and better ways of applying MobileNet embeddings (since our model "knows" what part of the chicken it has detected)
 
 
