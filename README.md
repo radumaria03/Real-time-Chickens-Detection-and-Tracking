@@ -13,8 +13,8 @@ Chickens detectetion &amp; tracking system that uses YOLOv8 for detection, Byte 
 
 
  * **Instance Segmentation Model ⚙**
-  * *the `yolov8s-seg` model was for training and for making predictions*
-  * *first a bounding box dataset was used, but the segmentation model has better results*
+   * *the `yolov8s-seg` model was for training and for making predictions*
+   * *first a bounding box dataset was used, but the segmentation model has better results*
 
 
 **Check Object Detection dataset results (Bounding Box)**
