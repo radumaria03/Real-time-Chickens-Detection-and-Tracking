@@ -55,15 +55,15 @@ https://github.com/user-attachments/assets/fc7ad379-6d20-4950-b6cc-6bde99678dcd
 
 # Improvments
 
-📊 The model was created for experimenting with this tools, but it can be easly improved in a lot of different way (depending on the goal). Here are just a few improvments, the model can do a great job at detecting, but how the model is using those detections is just as important as having a high detection rate 
+📊 The model was created to experiment with these tools, but it can be easly improved in a lot of different ways (depending on the goal). Here are just a few improvements, the model can do a great job at detecting chicikens, but how the model is using those detections is just as important as accurate detections 
 
 * **Better data** - the dataset used is very small, with just one label ("chicken"), a larger dataset with high-quality data will perform better
 * **Better detections** - the model is doing not doing that great at detecting all the chickens from a frame, but we can improve this in different ways
-    * *Edge Detection Filter* - we can change YOLO model arhitecture RGB channels from 3 to 4, and add to the 4th channel an edge detection filter like the `Sobel Filter`
-* **MobileNet Embeddings improvments** - even with the embeddings the model can still count the same chicken multiple times, for example if the model detects the first half of the chicken and in the next frames the other half of the chicken, when we check the similarity for those detections the model might see it as a different chicken
+    * *Edge Detection Filter* - we can change YOLO model arhitecture, changing the input from 3 channels (RGB) to 4, and add to the 4th channel an edge detection filter like the `Sobel Filter`
+* **MobileNet Embeddings improvments** - even with the embeddings the model can still count the same chicken multiple times, for example if the model detects the first half of the chicken and in the next frames the other half of the chicken, when we check the similarity of those detections the model might see it as a different chicken
     * also, if the chickens look alike the model might get confused and assign the embedding to the wrong chicken
 * **Smart Detections** - it's great if we can detect even if the chicken is not fully visible, like if only 10% or 20% of the chicken is visible, but in the next frames it might be completly visible
-    * humans can do this easly when watching a video, if a chicken is not fully visible we can identify that as the same chicken when it becomes visible in the next frames (not necessary always, but it's something we can do)
+    * humans can do this easly when watching a video, if a chicken is not fully visible we can still identify it as the same chicken when it becomes fully visible in the next frames (not necessary always, but it's something we can do)
     * if it can be implemented in a simple way, so that we don't affect performance, we can have better detections and better ways of applying MobileNet embeddings (since our model "knows" what part of the chicken it has detected)
 
 
