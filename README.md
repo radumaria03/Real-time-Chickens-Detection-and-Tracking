@@ -55,7 +55,7 @@ https://github.com/user-attachments/assets/fc7ad379-6d20-4950-b6cc-6bde99678dcd
 
 # Improvments
 
-📊 The model was created to experiment with these tools, but it can be easly improved in a lot of different ways (depending on the goal). Here are just a few improvements, the model can do a great job at detecting chicikens, but how the model is using those detections is just as important as accurate detections 
+📊 The model was created to experiment with these tools, but it can be easly improved in a lot of different ways (depending on the goal). Below are just a few improvements - the model can do a great job at detecting chickens, but how the model is using those detections is just as important as accurate detections 
 
 * **Better data** - the dataset used is very small, with just one label ("chicken"), a larger dataset with high-quality data will perform better
 * **Better detections** - the model is doing not doing that great at detecting all the chickens from a frame, but we can improve this in different ways
